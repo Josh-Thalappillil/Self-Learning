@@ -14,3 +14,17 @@ def even_odd(x):
         print("odd")
 even_odd(22) 
 even_odd(35)
+
+#parameters
+def f():
+    return 1 + 1
+
+result = f()
+print(result)
+
+#multiple parameters
+def f(x, y, z):
+    return x + y + z
+
+result = f(1, 2, 3)
+print(result)
