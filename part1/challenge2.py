@@ -1,6 +1,6 @@
 #Write a function that does something interesting, and use it several times in a program.
 
-print("Hello, this program will calculate and confirm the user's age.")
+print("Hello, this program will calculate and confirm the user's birth year.")
 
 def first():
     name = input("What is your name? ")
