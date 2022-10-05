@@ -87,3 +87,24 @@ def agetest():
     elif age >=20:
         print("You are an adult.")
 
+#exceptions
+def exception():
+    a = input("Type a number: ")
+    b = input("Type another number: ")
+    a = int(a)
+    b = int(b)
+    try:
+        print(a / b)
+    except ZeroDivisionError:
+        print("b cannot be zero. Try again. ")
+
+#Docstrings - define parameters in methods/functions
+def add (x , y): 
+    """
+    Returns x + y.
+    :param x:int first integer to beadded. 
+    :param y:int second integer to be added.
+    :return : int sum of x and y. 
+    """
+    return x + y
+
