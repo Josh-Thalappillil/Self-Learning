@@ -23,7 +23,7 @@ def confirm():
     if tf == "False":
         print("Please restart the program and try again.")
         return False
-    if tf == "True":
+    else:
         print("Thank you for using this program.")
         return True
 
