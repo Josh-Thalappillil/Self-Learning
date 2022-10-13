@@ -7,6 +7,11 @@ def calc():
     second = float(input("Second: "))
     sum = first + second
     print(f"Sum: {sum}")
+    return sum
+
+def minus(num):
+    return num - 5
+
 
 
 def temp():

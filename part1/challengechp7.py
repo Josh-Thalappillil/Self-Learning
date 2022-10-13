@@ -8,14 +8,17 @@
 
 import random
 
-guess_number = random.randint(1, 10)
-running = True
 
-while running:
-    guess = int(input("Enter your guess: "))
-    if guess == guess_number:
-        running = False
-        print("Congratulations, you chose the correct number.")
-    
-    else:
-        print("Guess again.", str(guess_number))
+
+def guessgame():
+    guess_number = random.randint(1, 10)
+    running = True
+        
+    while running:
+        guess = int(input("Enter your guess: "))
+        if guess == guess_number:
+            running = False
+            print("Congratulations, you chose the correct number.")
+        
+        else:
+            print("Guess again.", str(guess_number))
